@@ -1,0 +1,142 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    height:100%;
+    width: 100%;
+    background-image: url("/xampp/htdocs/PHP_Programs/GUVI/ASSETS/form_bg.png");
+    background-position: center;
+    background-size:cover;
+    position: absolute;
+}
+.form-container{
+    width:375px;
+    height: 600px;
+    position: relative;
+    margin: 8% auto;    
+    background-color: rgba(11, 43, 83, 0.451);
+    border-radius:15px;
+    padding:5px;  
+    overflow: hidden; 
+}
+.button-box{
+    width:210px;
+    margin:35px auto;
+    position: relative;
+    box-shadow:0 0 20px 8px #00ffee;
+    border-radius: 25px;
+    padding:5px;
+}
+.toggle-btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color:white;  
+    font-size: 18px;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-image:linear-gradient(to right,#00ffee, #00ffa2);
+    border-radius: 25px;
+    transition:.5s;
+}
+.media-icons{
+    margin: 10px auto;
+    text-align: center;
+}
+.media-icons .fa-brands{
+    width: 35px;
+    height: 100%;
+    padding: 10px 0px;
+    margin:0 15px;
+    box-shadow: 0 0 20px 0 #00ffee ;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.fa-brands{
+    color: #fff;
+}
+.Login-form{
+    top: 250px;
+    position: absolute;
+    width: 300px;
+    transition: .5s;
+    margin: auto 10px;
+}
+.Login-form ::placeholder{
+    color: #00ffa2;
+}
+.reg-form{
+    top: 180px;
+    position: absolute;
+    width:300px;
+    transition: .5s;
+    margin: auto;
+
+ }
+ .reg-form ::placeholder{
+     color: #00ffa2;
+ }
+
+ #dob{
+    color: #00ffa2;
+ }
+.input-field{
+    width: 100%;
+    padding:10px 0;
+    margin: 10px auto;
+    border: 0;
+    border-bottom:5px #000;
+    outline: none;
+    background: transparent;
+    font-size: inherit; 
+}
+.gender{
+    font-size: large;
+    color: #00ffa2;
+    width: 100%;
+    padding: 10px 0;
+    margin: auto;
+    border: 0;
+    outline: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.submit{
+    width:55%;
+    padding: 10px 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: medium;
+    margin:10px auto;
+    background-image:linear-gradient(to right,#00ffee, #00ffa2);
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    font-size: 18px;
+}
+#login{
+    left: 8px;
+}
+#register{
+    left: 400px;
+}
